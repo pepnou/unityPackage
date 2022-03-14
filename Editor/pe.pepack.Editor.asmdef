@@ -1,0 +1,19 @@
+{
+    "name": "pe.pepack.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1372e8afab5911447bb40e9a403c802c",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

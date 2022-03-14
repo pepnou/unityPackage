@@ -1,0 +1,43 @@
+{
+	"name": "com.pe.pepack",
+	"version": "1.0.0",
+	"displayName": "P&E Pack",
+	"description": "Basic building blocks made durring game jams",
+	"unity": "2021.1",
+	"dependencies": {
+	"com.unity.render-pipelines.universal": "11.0.0",
+	"com.unity.inputsystem": "1.1.0-pre.5"
+	},
+	"author": {
+	"name": "P&E"
+	},
+	"unityRelease": "3f1",
+	"hideInEditor": false,
+	"samples": [
+		{
+			"displayName": "Materials",
+			"description": "Contains sample Materials",
+			"path": "Samples~/Materials"
+		},
+		{
+			"displayName": "Models",
+			"description": "Contains sample Models",
+			"path": "Samples~/Models"
+		},
+		{
+			"displayName": "Prefabs",
+			"description": "Contains sample Prefabs",
+			"path": "Samples~/Prefabs"
+		},
+		{
+			"displayName": "Scenes",
+			"description": "Contains sample Scenes",
+			"path": "Samples~/Scenes"
+		},
+		{
+			"displayName": "Sprites",
+			"description": "Contains sample Sprites",
+			"path": "Samples~/Sprites"
+		}
+	]
+}
