@@ -206,10 +206,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 172721707}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 444c4df407ccb004ab33116bae5c0822, type: 3}
+  m_Script: {fileID: 11500000, guid: 0013edaf0e6d4d240b9ad55fdebd1e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: cl1
+  clip: 
 --- !u!4 &172721709
 Transform:
   m_ObjectHideFlags: 0
@@ -355,12 +355,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 680111977}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f33d6faf3992645abdafee9feb9745, type: 3}
+  m_Script: {fileID: 11500000, guid: fbad7f1cde8d79c4e95e29b1d2fe16b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadType: 0
-  scenePath: ControlMenu
-  sceneBuildIndex: 1
+  loadType: 1
+  scenePath: 
+  sceneBuildIndex: 0
   sceneOffset: 0
   wait: 0
   waitTime: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1314259284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f33d6faf3992645abdafee9feb9745, type: 3}
+  m_Script: {fileID: 11500000, guid: fbad7f1cde8d79c4e95e29b1d2fe16b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loadType: 1
