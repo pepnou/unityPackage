@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: DitherMat
-  m_Shader: {fileID: -6465566751694194690, guid: 601be6ef9a5a70e4f8824dbe65804aec, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 160981f72b4565746aadb30e8b8ec015, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -38,15 +38,11 @@ Material:
     m_Ints: []
     m_Floats:
     - AO: 0
-    - DitherLimit: 0
     - DitherSize: 1
-    - LightStrengh: 1
-    - NoiseScale: 11.82
-    - NoiseStrength: 0
+    - NoiseScale: 10
+    - NoiseStrength: 0.01
     - Smoothness: 0
-    - noiseScale: 13.35
-    - noiseStrength: 0.56
     m_Colors:
     - DitherRemap: {r: 0.1, g: 1, b: 0, a: 0}
-    - _Color: {r: 1.0196079, g: 0.5568628, b: 0.7764706, a: 1}
+    - _Color: {r: 0.04313726, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []

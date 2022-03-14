@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: TestMat
-  m_Shader: {fileID: -6465566751694194690, guid: 65819cdc3f1b3d441b43363075ab8c98, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: af34b82c0b6080844b3a6c27f08e7f1a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -40,5 +40,5 @@ Material:
     - AmbientOcclusion: 0
     - Smoothness: 0
     m_Colors:
-    - Albedo: {r: 1, g: 0, b: 0, a: 0}
+    - Albedo: {r: 0.8867924, g: 0.3137237, b: 0.3137237, a: 0}
   m_BuildTextureStacks: []
