@@ -209,7 +209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0013edaf0e6d4d240b9ad55fdebd1e01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: 
+  clip: music
+  duration: 3
 --- !u!4 &172721709
 Transform:
   m_ObjectHideFlags: 0
@@ -220,6 +221,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 441.88025, y: 257.26825, z: -26.611084}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -254,6 +256,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1844226157}
   m_Father: {fileID: 782816961}
@@ -360,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadType: 1
   scenePath: 
-  sceneBuildIndex: 0
+  sceneBuildIndex: 1
   sceneOffset: 0
   wait: 0
   waitTime: 0
@@ -395,6 +398,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0.13792692, w: 0.9904424}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782816961}
   m_RootOrder: 2
@@ -591,6 +595,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2063629625}
   - {fileID: 1124910027}
@@ -676,6 +681,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -708,6 +714,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782816961}
   m_RootOrder: 1
@@ -842,6 +849,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1314259285}
   m_RootOrder: 0
@@ -1037,6 +1045,7 @@ Transform:
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1071,6 +1080,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1196784547}
   m_Father: {fileID: 782816961}
@@ -1177,7 +1187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadType: 1
   scenePath: 
-  sceneBuildIndex: 0
+  sceneBuildIndex: 2
   sceneOffset: 0
   wait: 0
   waitTime: 0
@@ -1263,6 +1273,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1295,6 +1306,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 680111978}
   m_RootOrder: 0
@@ -1456,6 +1468,54 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: globalVolume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[0]._clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4b7b38e0c0b63e439621bd02e68d0f4, type: 3}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[0]._loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[0]._name
+      value: music
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[1]._clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 52f5b366d412c484d9db3a51da46a7ee, type: 3}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[1]._loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[1]._name
+      value: music2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[0]._pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[1]._pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[0]._volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8960813892917190391, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
+      propertyPath: soundsBank.Array.data[1]._volume
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4818f47233c8f284788b0ed9fbb6616f, type: 3}
 --- !u!1 &2063629624
@@ -1486,6 +1546,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782816961}
   m_RootOrder: 0

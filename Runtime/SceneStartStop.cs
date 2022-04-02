@@ -5,27 +5,18 @@ using UnityEngine;
 public class SceneStartStop : MonoBehaviour
 {
     [SerializeField] string clip;
+    [SerializeField] float duration = 3f;
     private void Start()
     {
-        GameObject audioManager = GameObject.Find("AudioManager");
-
-        if (audioManager == null)
-        {
-            return;
-        }
-
-        audioManager.GetComponent<AudioManager>().TransitionIn(clip, 3f);
+        //AudioManager.instance.TransitionIn(clip, duration);
+        AudioManager.instance.Play(clip);
     }
-
-    private void OnDestroy()
+    
+    /*private void OnDestroy()
     {
-        GameObject audioManager = GameObject.Find("AudioManager");
-
-        if(audioManager == null)
+        if (AudioManager.instance != null)
         {
-            return;
+            AudioManager.instance.TransitionOut(clip, duration);
         }
-
-        audioManager.GetComponent<AudioManager>().TransitionOut(clip, 3f);
-    }
+    }*/
 }
