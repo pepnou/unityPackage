@@ -8,8 +8,8 @@ public class SceneStartStop : MonoBehaviour
     [SerializeField] float duration = 3f;
     private void Start()
     {
-        //AudioManager.instance.TransitionIn(clip, duration);
-        AudioManager.instance.Play(clip);
+        AudioManager2.TransitionIn(clip, duration);
+        //AudioManager.instance.Play(clip);
     }
     
     /*private void OnDestroy()

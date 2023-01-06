@@ -369,7 +369,7 @@ public class PropertyBlockManager : MonoBehaviour
     }
 }
 
-[Serializable]
+[System.Serializable]
 public class Pair<X, Y>
 {
     public X item1;
